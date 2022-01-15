@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.center_card
+{
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 450px; */
+  margin: auto;
+  font-family: arial;
+  margin-top: 5vh;
+  padding: 13px 13px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center_it
+{
+   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.income_expense
+{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  padding: 15px 15px 5px 15px;
+  margin-bottom: 15px;
+}
+
+.add_transaction
+{
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 0;
+  /* margin-bottom: 15px; */
+}
+
+.add_transaction_input
+{
+  font-size: 18px;
+  margin-bottom: 8px;
+  padding: 5px;
+  
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+} */
+
+.transaction_history
+{
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 0;
+  
+  
+}
+
+.transaction_history_1
+{
+  margin: 0;
+  padding: 0;
+}
+
+.transaction_history_1 li
+{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 5px 15px;
+ background-color: white;
+ margin: 5px 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.red
+{
+  color: red;
+}
+.green
+{
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon1 :hover
+{
+  cursor: pointer
 }
